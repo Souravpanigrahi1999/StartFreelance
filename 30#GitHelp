@@ -1,0 +1,17 @@
+- Centralized Repository
+- Repo in 2 places - Local,Remote
+- Init a repo
+- make changes and then commit.
+    - pull code - to get the latest update
+        - *git pull
+- push ur changes
+- Not able to authinticate
+
+- Clone the repo
+    - install git
+    - set path for git
+    - command = *git clone https://github.com/abhijitn0310/StartFreelance.git
+- Status of ur local changes
+    - git status
+- Dont want commit ur changes and rollback
+    - git stash

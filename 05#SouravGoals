@@ -1,0 +1,26 @@
+my first commit.
+1.first to open the file and edit.
+2.save the file and open the cmd.
+3.git status
+4.git add .
+5.git commit -m "enter the commit test"
+6.git push
+- vs code is working.
+    - good evening
+- What is public ?
+    - public is a java keyword which declares a member's access as public.
+    - public members are visible to all other classes.
+- Why don't we use 'private' in class main ?
+    -JVM won't be able to call that main method so the code wont be executed to avoid this it will give you compile time error.
+- How many different  ways to operate concantination ?
+    - Concatenation operators join multiple strings into a single string. 
+    - There are two concatenation operators, + and & . 
+- Explain "public static void main".
+    - Public:- it is an access specifier that means it will be accessed by publically.
+    - Static:- it is access modifier that means when the java program is load then it will create the space in memory automatically.
+    - Void:- it is a return type that is it does not return any value.
+    -  main():- it is a method or a function name.
+- Explain "System.out.println"
+    - System: It is a final class defined in the java.lang package.
+    - out: This is an instance of PrintStream type, which is a public and static member field of the System class.
+    - println(): As all instances of PrintStream class have a public method println(). It prints any argument passed to it and adds a new line to the output.
