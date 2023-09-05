@@ -12,7 +12,7 @@ my first commit.
 
 - What is public ?
     - public is a java keyword which declares a member's access as public.
-    - public members are visible to all other classes.
+    - public members are visible to all other classes..
 - Why don't we use 'private' in class main ?
     -JVM won't be able to call that main method so the code wont be executed to avoid this it will give
      you compile time error.
