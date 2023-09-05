@@ -8,7 +8,7 @@ my first commit.
 - vs code is working.
     - good evening
 
-- Day 1 question answer ?
+- Day 1 question answer?
 
 - What is public ?
     - public is a java keyword which declares a member's access as public.
@@ -35,7 +35,7 @@ my first commit.
 - Day 2 question answer ?
 
 - - Why Java became very poppular?
-    - Some features that makes Java so useful and popular.
+    - Some features that makes Java so useful and popular..
         - Easy to Use
             Java's syntax is similar to C & C++. The ideal language for beginning Java students who can
              master the language in two stages. It starts with Core Java and then moves on to Advanced Java.
@@ -153,3 +153,4 @@ my first commit.
 - Spring Boot
     It is used to create a stand-alone Spring-based application. Spring Boot is the combination of Spring
      Framework and Embedded Servers.
+     
