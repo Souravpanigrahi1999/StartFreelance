@@ -24,3 +24,106 @@ my first commit.
     - System: It is a final class defined in the java.lang package.
     - out: This is an instance of PrintStream type, which is a public and static member field of the System class.
     - println(): As all instances of PrintStream class have a public method println(). It prints any argument passed to it and adds a new line to the output.
+
+- - Why Java became very poppular?
+    - Some features that makes Java so useful and popular.
+        - Easy to Use
+            Java's syntax is similar to C & C++. The ideal language for beginning Java students who can master the language in two stages. It starts with Core Java and then moves on to Advanced Java.
+        - Built in Security
+            Java programming language uses for creating software applications, Web applications, Android applications, and software tools.
+        - Open Source
+            It is open-source, which implies that it is free to use. Any developer with a working knowledge of Java can use this free platform to create apps.
+        - Strong Community
+            It's a largest stack flow community. If there is any compillation error in the programming, then other programmers can assist us and solve that problem.
+        - Excellent Documentation
+            Its extensive documentation is well defined that provides complete guide to help and solve any problems we may encounter when coding in Java.
+- Why Java 8 is still popular?
+    - It's an LTS (Long Term Support) version, where as not all vversions of Java are LTS versions. This LTS version was introduced only in Java 8 (2014).
+- Features or Advantages of Java 8.
+    - Lambda expressions,
+    - Method references,
+    - Functional interfaces,
+    - Stream API,
+    - Default methods,
+    - Base64 Encode Decode,
+    - Static methods in interface,
+    - Optional class,
+    - Collectors class,
+    - ForEach() method,
+    - Nashorn JavaScript Engine,
+    - Parallel Array Sorting,
+    - Type and Repating Annotations,
+    - IO Enhancements,
+    - Concurrency Enhancements,
+    - JDBC Enhancements etc.
+- DSA (Data Structure Alogorithm)
+
+- Class
+    Class is an user defined BluePrint from which objects are created.
+-Object
+    It is the result of a class.
+        -How many ways to create an object?
+            There are five different ways to create an object in Java:
+                - Java new Operator
+                - Java Class.newInstance() method
+                - Java newInstance() method of constructor
+                - Java Object.clone() method
+                - Java Object Serialization and Deserialization
+- Functional Programming
+    - It's an OOP concept. There are 2 methods used in functional programming.
+        - Using Objects Method
+        - Using Static Method
+- To create an Object
+        B b = new B
+    - 'B' is an Object.   - 'b' is a reference of the object.
+- OOPs features
+    - Inheritance
+        A & B are two classes, are independent to each other. B is the child class of A. Then we have to inherit them using 2 methods.
+        - using extends keyword
+        - using implements keyword
+            - How to know where we can use extends keyword or implements keyword?
+                When a class can inherit another class, then we use extends keyword. And when a class can implement an interface, then we use implements keyword.
+    - Polymorphism
+        If one task is performed in different ways, it is known as polymorphism. There are 2 methods.
+        - Overloading (Compile time Polymorphism)
+        - Overriding (Run time Polymorphism)
+    - Abstraction
+        To hide something. There are 2 ways
+        - Abstract Class
+        - Interface
+            - Difference between class, abstract class, interface.
+                Class
+                - Class is a blueprint or template from which objects are created.
+                Abstract Class
+                - Abstract class can have abstract and non-abstract methods.
+                Interface
+                - Interface can have only abstract methods.
+    - Encapsulation
+        To bind the behaviour and properties.
+- How many different keywords available in java?
+    There are 51 keywords available in Java.
+    - Access modifiers − private, protected, public.
+    - Class, method, variable modifiers− abstract, class, extends, final, implements, interface, native, new, static, strictfp, synchronized, transient, volatile.
+    - Flow control− break, case, continue, default, do, else, for, if, instanceof, return, switch, while.
+    - Package control− import, package.
+    - Primitive types− boolean, byte, char, double, float, int, long, short.
+    - Error handling− assert, catch, finally, throw, throws, try.
+    - Enumeration− enum.
+    - Others− super, this, void.
+    - Unused− const, goto.
+
+- Access Specifier
+    The access modifiers in Java specifies the accessibility or scope of a class.
+    There are 4 types of access specifier in Java.
+    - Public
+    - Private
+    - Default
+    - Protected
+- MAVEN
+    It's a powerful Project Management Tool. It is used for projects build, dependency and documentation.
+- Monolithic
+    The monolithic operating system is a very basic operating system in which file management, memory management, device management, and process management are directly controlled within the kernel. The kernel can access all the resources present in the system.
+- Microservice
+    Microservices are the small services that work together. It's a Service Oriented Architecture. By combining all the microservices, it constructs a big service. In the microservice architecture, all the services communicate with each other.
+- Spring Boot
+    It is used to create a stand-alone Spring-based application. Spring Boot is the combination of Spring Framework and Embedded Servers.
