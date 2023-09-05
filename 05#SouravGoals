@@ -154,3 +154,38 @@ my first commit.
     It is used to create a stand-alone Spring-based application. Spring Boot is the combination of Spring
      Framework and Embedded Servers.
      
+- Day 5 question answer ?
+
+- Data types
+    - 2types: 
+        - 1.primitive: byte,short,int,long,float,double,char,boolean
+        - 2.non primitive: string,array,etc
+    - byte-1byte
+        - Its minimum value is -128 and maximum value is 127.
+    - short-2byte
+        - Its minimum value is -32,768 and maximum value is 32,767. 
+    - int-4byte
+        - Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647.
+    - long-8byte
+        -  Its minimum value is - 9,223,372,036,854,775,808and maximum value is 9,223,372,036,854,775,807. 
+    - float-4byte
+    - double-8byte
+    - char-2byte
+    - double-1bit
+
+- Advantages of microservices over monolithic
+    - Advantages of monolithic
+    - Simple to develop relative to microservices, where skilled developers are required in order to identify  and develop the services.
+    - Easier to deploy as only a single jar/war file is deployed.
+    - Relatively easier and simple to develop in comparison to microservices architecture.
+    - The problems of network latency and security are relatively less in comparison to microservices architecture.
+    - Developers need not learn different applications, they can keep their focus on one application.
+
+    - Advantages of microservices
+    - It is easy to manage as it is relatively smaller.
+    - If there’s any update in one of the microservices, then we need to redeploy only that microservice.
+    - Microservices are self-contained and, hence, deployed independently. Their start-up and deployment times are relatively less.
+    - It is very easy for a new developer to onboard the project as he needs to understand only a particular microservice providing the functionality he will be working on and not the whole system.
+    - If a particular microservice is facing a large load because of the users using that functionality in excess, then we need to scale out that microservice only. Hence, the microservices architecture supports horizontal scaling.
+    - Each microservice can use different technology based on the business requirements.
+    - If a particular microservice goes down due to some bug, then it doesn’t affect other microservices and the whole system remains intact and continues providing other functionalities to the users.
