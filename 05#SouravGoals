@@ -7,38 +7,53 @@ my first commit.
 6.git push
 - vs code is working.
     - good evening
+
+- Day 1 question answer ?
+
 - What is public ?
     - public is a java keyword which declares a member's access as public.
     - public members are visible to all other classes.
 - Why don't we use 'private' in class main ?
-    -JVM won't be able to call that main method so the code wont be executed to avoid this it will give you compile time error.
+    -JVM won't be able to call that main method so the code wont be executed to avoid this it will give
+     you compile time error.
 - How many different  ways to operate concantination ?
     - Concatenation operators join multiple strings into a single string. 
     - There are two concatenation operators, + and & . 
 - Explain "public static void main".
     - Public:- it is an access specifier that means it will be accessed by publically.
-    - Static:- it is access modifier that means when the java program is load then it will create the space in memory automatically.
+    - Static:- it is access modifier that means when the java program is load then it will create the
+     space in memory automatically.
     - Void:- it is a return type that is it does not return any value.
     -  main():- it is a method or a function name.
 - Explain "System.out.println"
     - System: It is a final class defined in the java.lang package.
-    - out: This is an instance of PrintStream type, which is a public and static member field of the System class.
-    - println(): As all instances of PrintStream class have a public method println(). It prints any argument passed to it and adds a new line to the output.
+    - out: This is an instance of PrintStream type, which is a public and static member field of the System
+     class.
+    - println(): As all instances of PrintStream class have a public method println(). It prints any argument
+     passed to it and adds a new line to the output.
+
+- Day 2 question answer ?
 
 - - Why Java became very poppular?
     - Some features that makes Java so useful and popular.
         - Easy to Use
-            Java's syntax is similar to C & C++. The ideal language for beginning Java students who can master the language in two stages. It starts with Core Java and then moves on to Advanced Java.
+            Java's syntax is similar to C & C++. The ideal language for beginning Java students who can
+             master the language in two stages. It starts with Core Java and then moves on to Advanced Java.
         - Built in Security
-            Java programming language uses for creating software applications, Web applications, Android applications, and software tools.
+            Java programming language uses for creating software applications, Web applications, Android
+             applications, and software tools.
         - Open Source
-            It is open-source, which implies that it is free to use. Any developer with a working knowledge of Java can use this free platform to create apps.
+            It is open-source, which implies that it is free to use. Any developer with a working knowledge
+             of Java can use this free platform to create apps.
         - Strong Community
-            It's a largest stack flow community. If there is any compillation error in the programming, then other programmers can assist us and solve that problem.
+            It's a largest stack flow community. If there is any compillation error in the programming,
+             then other programmers can assist us and solve that problem.
         - Excellent Documentation
-            Its extensive documentation is well defined that provides complete guide to help and solve any problems we may encounter when coding in Java.
+            Its extensive documentation is well defined that provides complete guide to help and solve
+             any problems we may encounter when coding in Java.
 - Why Java 8 is still popular?
-    - It's an LTS (Long Term Support) version, where as not all vversions of Java are LTS versions. This LTS version was introduced only in Java 8 (2014).
+    - It's an LTS (Long Term Support) version, where as not all vversions of Java are LTS versions.
+     This LTS version was introduced only in Java 8 (2014).
 - Features or Advantages of Java 8.
     - Lambda expressions,
     - Method references,
@@ -56,7 +71,8 @@ my first commit.
     - IO Enhancements,
     - Concurrency Enhancements,
     - JDBC Enhancements etc.
-- DSA (Data Structure Alogorithm)
+
+- Day 3 question answer ?
 
 - Class
     Class is an user defined BluePrint from which objects are created.
@@ -78,11 +94,13 @@ my first commit.
     - 'B' is an Object.   - 'b' is a reference of the object.
 - OOPs features
     - Inheritance
-        A & B are two classes, are independent to each other. B is the child class of A. Then we have to inherit them using 2 methods.
+        A & B are two classes, are independent to each other. B is the child class of A. Then we have
+         to inherit them using 2 methods.
         - using extends keyword
         - using implements keyword
             - How to know where we can use extends keyword or implements keyword?
-                When a class can inherit another class, then we use extends keyword. And when a class can implement an interface, then we use implements keyword.
+                When a class can inherit another class, then we use extends keyword. And when a class
+                 can implement an interface, then we use implements keyword.
     - Polymorphism
         If one task is performed in different ways, it is known as polymorphism. There are 2 methods.
         - Overloading (Compile time Polymorphism)
@@ -103,7 +121,8 @@ my first commit.
 - How many different keywords available in java?
     There are 51 keywords available in Java.
     - Access modifiers − private, protected, public.
-    - Class, method, variable modifiers− abstract, class, extends, final, implements, interface, native, new, static, strictfp, synchronized, transient, volatile.
+    - Class, method, variable modifiers− abstract, class, extends, final, implements, interface, native,
+     new, static, strictfp, synchronized, transient, volatile.
     - Flow control− break, case, continue, default, do, else, for, if, instanceof, return, switch, while.
     - Package control− import, package.
     - Primitive types− boolean, byte, char, double, float, int, long, short.
@@ -111,6 +130,8 @@ my first commit.
     - Enumeration− enum.
     - Others− super, this, void.
     - Unused− const, goto.
+
+- DAy 4 question answer ?
 
 - Access Specifier
     The access modifiers in Java specifies the accessibility or scope of a class.
@@ -122,8 +143,13 @@ my first commit.
 - MAVEN
     It's a powerful Project Management Tool. It is used for projects build, dependency and documentation.
 - Monolithic
-    The monolithic operating system is a very basic operating system in which file management, memory management, device management, and process management are directly controlled within the kernel. The kernel can access all the resources present in the system.
+    The monolithic operating system is a very basic operating system in which file management, memory
+     management, device management, and process management are directly controlled within the kernel.
+      The kernel can access all the resources present in the system.
 - Microservice
-    Microservices are the small services that work together. It's a Service Oriented Architecture. By combining all the microservices, it constructs a big service. In the microservice architecture, all the services communicate with each other.
+    Microservices are the small services that work together. It's a Service Oriented Architecture.
+     By combining all the microservices, it constructs a big service. In the microservice architecture,
+      all the services communicate with each other.
 - Spring Boot
-    It is used to create a stand-alone Spring-based application. Spring Boot is the combination of Spring Framework and Embedded Servers.
+    It is used to create a stand-alone Spring-based application. Spring Boot is the combination of Spring
+     Framework and Embedded Servers.
