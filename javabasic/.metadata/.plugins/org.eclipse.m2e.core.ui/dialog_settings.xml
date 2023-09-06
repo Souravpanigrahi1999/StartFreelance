@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="G:\git\StartFreelance\javabasic"/>
+			<item value="G:\git\StartFreelance"/>
 			<item value="G:\git\javabasic\src\main\java"/>
 			<item value="G:\git\javabasic"/>
 		</list>
