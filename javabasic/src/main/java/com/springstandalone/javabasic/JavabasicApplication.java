@@ -8,6 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JavabasicApplication implements CommandLineRunner{
 	
+	
+	@Autowired
+	private Factorial factorial;
+	
+	@Autowired
+	private Pallindrome pallindrome;
+	
 	@Autowired
 	private Swap2 swapping1;
 	
@@ -30,8 +37,9 @@ public class JavabasicApplication implements CommandLineRunner{
 		//Swapping obj=new Swapping();  //swap object creation
 		//swapping.swappLogic(10, 30); //direct object call
 		//reverse.reverseLogic(783);	//direct call to object 
-		swapping1.swapLogic(30,50);
-		
+		//swapping1.swapLogic(30,50);
+		//pallindrome.pallindromeLogic(323);
+		factorial.factorialLogic(4);
 	}
 		
 }

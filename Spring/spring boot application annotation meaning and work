@@ -1,0 +1,8 @@
+- spring boot application annotation meaning and work
+    - Spring Boot @SpringBootApplication annotation is used to mark a configuration class that declares 
+     or more @Bean methods and also triggers auto-configuration and component scanning.
+
+     - work
+     - SpringApplication#run bootstraps a spring application as a stand-alone application from the main method.
+      It creates an appropriate ApplicationContext instance and load beans. It also runs embedded Tomcat server in Spring web application.
+      - It's same as declaring a class with @Configuration, @EnableAutoConfiguration and @ComponentScan annotations.
