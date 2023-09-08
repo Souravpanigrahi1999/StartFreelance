@@ -12,7 +12,7 @@ public class Factorial {
 			  else    
 			    return(n * factorialLogic(n-1));
 		 
-		 System.out.println("factorial of:"+number+" "+fact);
+		 //System.out.println("factorial of:"+number+" "+fact);
 		   
 	}
 	  

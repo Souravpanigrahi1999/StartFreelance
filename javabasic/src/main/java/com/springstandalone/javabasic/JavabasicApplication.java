@@ -10,6 +10,12 @@ public class JavabasicApplication implements CommandLineRunner{
 	
 	
 	@Autowired
+	private Palindromestring palindrome;
+	
+	@Autowired
+	private Stringreverse string;
+	
+	@Autowired
 	private Factorial factorial;
 	
 	@Autowired
@@ -31,15 +37,17 @@ public class JavabasicApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		//Reverse reverse1=new Reverse();  // reverse oject creation
+		//Reverse reverse1=new Revere();  // reverse oject creation
 		//int reverse=reverse1.reverseLogic(382);  //object call
 		//System.out.println("reverse"+reverse); //print
 		//Swapping obj=new Swapping();  //swap object creation
 		//swapping.swappLogic(10, 30); //direct object call
 		//reverse.reverseLogic(783);	//direct call to object 
-		//swapping1.swapLogic(30,50);
+		//swapping1.swapLogic(30,50); //50,30
 		//pallindrome.pallindromeLogic(323);
-		factorial.factorialLogic(4);
+		//factorial.factorialLogic(4); //error
+		//string.reverseLogic("sourav"); //varuos
+		palindrome.palindromeLogic("aba");
 	}
 		
 }
