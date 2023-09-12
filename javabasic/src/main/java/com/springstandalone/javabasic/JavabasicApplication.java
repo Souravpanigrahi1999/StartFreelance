@@ -10,6 +10,9 @@ public class JavabasicApplication implements CommandLineRunner{
 	
 	
 	@Autowired
+	private NPEx np;
+	
+	@Autowired
 	private Palindromestring palindrome;
 	
 	@Autowired
@@ -45,9 +48,25 @@ public class JavabasicApplication implements CommandLineRunner{
 		//reverse.reverseLogic(783);	//direct call to object 
 		//swapping1.swapLogic(30,50); //50,30
 		//pallindrome.pallindromeLogic(323);
-		//factorial.factorialLogic(4); //error
+		//int result=factorial.factorialLogic(4);
+		//System.out.println("factorial "+result);
 		//string.reverseLogic("sourav"); //varuos
-		palindrome.palindromeLogic("aba");
+		//palindrome.palindromeLogic("aba");// palindrome
+		//np.npLogic(0);
+		boolean b=false;
+		try {
+			b=np.checkVoterAge(17);
+		}
+		catch (UnderageException ex) {
+			System.out.println(ex.getMessage());
+		}
+		catch (Exception ex) {
+			System.out.println(ex.getMessage());
+		}
+		if (b)
+			System.out.println("welcome to vote ");
+		else
+			System.out.println("not eligible ");
 	}
 		
 }
