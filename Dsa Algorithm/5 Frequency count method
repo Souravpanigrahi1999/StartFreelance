@@ -1,0 +1,74 @@
+- Frequency count method
+    - Ex-1
+    Algorithm sum(a,n)
+    {                       time
+        s=0;--------------------1
+        for(i=0; i<n; i++)-----n=1
+        {
+            s=s+a[i];-----------n
+        }
+        return s;---------------1
+    }                       --------
+                            f(n)=2n+3
+                            o(n)=time complexity
+    space
+    a=n
+    n=1
+    s=1
+    i=1
+    ------
+    s(n)=n+3
+    o(n)
+
+- Ex-2
+- Sum of 2 matrix
+    Algorithm add(A,B,N)
+    {                                       time
+        for(i=0; i<n; i++)-----------------n+1
+        {
+            for(j=0; j<n; j++)------------n*(n+1)
+            {
+                c[i,j]=a[i,j]+b[i,j];-------n*n
+            }                           -----------
+        }                               f(n)=2n2+2n+1= 2n2 is highest degree
+    }                                       o(n2)=time complexity
+    
+    space
+    a=n2
+    b=n2
+    c=n2
+    n=1
+    i=1
+    j=1
+---------
+s(n)=3n2+3
+o(n2)=space complexity
+
+- Ex-3
+- Multiplication of 2 matrix
+    Algorithm multiply (a,b,n)
+    {                                               time
+        for(i=0; i<n; i++)--------------------------n+1
+        {
+            for(j=0; j<n; j++)---------------------n(n+1)
+            {
+                c[i,j]=0;---------------------------n*n
+                for(k=0; k<n; k++)---------------n*n*(n+1)
+                {
+                    c[i,j]=c[i,j]+a[i,k]*b[k,j];-----n*n*n
+                }                           ------------------
+            }                                f(n)=2n3+3n2+2n+1
+        }                                    o(n3)=time complexity
+    }
+
+    space
+    a=n2
+    b=n2
+    c=n2
+    n=1
+    i=1
+    j=1
+    k=1
+----------
+s(n)=3n2+4
+o(n2)=space complexity

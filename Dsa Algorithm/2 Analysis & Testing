@@ -1,0 +1,11 @@
+- Priori Analysis
+    - 1. Algorithm
+    - 2. Independent of Language
+    - 3. Hardware Independent
+    - 4. Time & Space Function
+
+- Posteriori Testing
+    - 1. Program
+    - 2. Language Dependent
+    - 3. Hardware Dependent
+    - 4. Watch time & Bytes

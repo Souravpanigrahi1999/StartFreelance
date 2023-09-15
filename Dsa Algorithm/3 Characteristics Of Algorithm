@@ -1,0 +1,6 @@
+- Characteristics of Algorithm
+- 1. Input - 0 or more
+- 2. Output - at least 1 output
+- 3. Definiteness - routover of -1
+- 4. Finiteness - the solution is ready
+- 5. Effectiveness - don't write unessary step , it is a procedure

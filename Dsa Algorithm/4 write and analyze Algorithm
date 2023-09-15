@@ -1,0 +1,36 @@
+- How to Write an algorithm
+    - Algorithm swap(a,b)
+    Begin
+        temp<-a;
+        a<-b;
+        b<-temp;
+    end
+
+- How to analyze an algorithm
+    - 1. Time
+    - 2. Space
+    - 3. Network
+    - 4. Power Consuming
+    - 5. Cpu Registers
+
+- EX:-
+    Algorithm swap(a,b)
+    {                   time
+        temp=a;----------1
+        a=b;-------------1
+        b=temp;----------1
+    }               f(n)=3
+                    o(1)= time complexity
+
+- Space:-
+     a=   1
+     b=   1
+     temp=1
+     -------
+     s(n)=3 word
+     o(1)=it means constant
+
+
+    
+
+

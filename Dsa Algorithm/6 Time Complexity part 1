@@ -1,0 +1,50 @@
+- Time Complexity Part 1
+    -Ex 1
+    for(i=0; i<n; i++)-----n+1
+    {
+        stmt;--------------n        
+    }                   ------------
+                        o(n)=time complexity
+    for(i=n; i>0; i--)-----n+1 = o(n)=time complexity
+
+    for(i=1; i<n; i=i+2)
+    {
+        stmt;--------n/2=f(n)=n/2=time complexity
+    }
+
+    for(i=1; i<n; i=i+20)-----n/20=time complexity
+
+- Ex-2
+    for(i=0; i<n; i++)----------n+1
+    {
+        for(j=0; j<n; j++)------n(n+1)
+        {
+            stmt;---------------n*n
+        }                   -------------
+    }                       f(n)=o(n2)
+
+- Ex-3
+    for(i=0; i<n; i++)
+    {
+        for(j=0; j<i; j++)
+        {
+            stml;
+        }
+    }
+    1+2+3+.....+n=n(n+1)/2
+    f(n)=n2+1/2
+    o(n2)=time complexity
+
+- Ex-4
+    p=0;
+    for(i=1; p<=n; i++)
+    {
+        p=p+i;
+    }
+    Assume p>n
+    p=k(k+1)/2
+    k(k+1)/2>n
+    k2>n
+    k>routever of n
+    o(routever of n)
+        
