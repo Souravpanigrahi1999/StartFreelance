@@ -1,0 +1,24 @@
+- Asymptotic notation
+    - O big-oh upper bound
+    - big-omega upper bound
+    - theta Average bound----usefull
+
+- Big-oh notation
+- The function f(n)=o(g(n)) iff +ve constant c and n0
+- Ex- f(n)=2n+3
+2n+3<=10n n>=1
+2n+3<=10n
+f(n)=o(n)- Big-oh
+
+- omega notation
+- The function f(n)=omega(g(n)) iff +ve constant c and n0
+- ex- f(n)=2n+3
+2n+3>=1*log n>=1
+f(n) c g(n)
+f(n)=omega(n)- Omega
+
+-Theta notation
+- The function f(n)=theta(g(n)) iff +ve constant c1,c2 and 
+-  ex- f(n)=2n+3
+1*n<=2n+3<=5*n
+f(n)=theta(n)- Theta

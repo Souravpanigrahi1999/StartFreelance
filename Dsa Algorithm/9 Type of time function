@@ -1,0 +1,15 @@
+- Type of time function
+    - o(1)=constant
+    F(n)=2
+    f(n)=5
+    f(n)=5000
+    o(1)-time complexity
+    - o(logn)=Logrithemic
+    - o(n)=linear
+    f(n)=2n+3
+    f(n)=500n+700
+    f(n)=n/5000+6
+    o(n)-time complexity
+    - o(n²)-quadratic
+    - o(n³)-Cubic
+    - o(2n)-Exponential
