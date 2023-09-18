@@ -1,0 +1,52 @@
+- Properties of Asymptotic notation
+- General Properties
+    - if f(n) is o(g(n)) then a*F(n)is o(g(n))
+    - if f(n) is Omega(g(n)) then a*F(n)is Omega(g(n))
+    - if f(n) is Theta(g(n)) then a*F(n)is Theta(g(n))
+    - ex- f(n)=2n²+5 is o(n²)
+    then 7.f(n)=7(2n²+5)
+    14n²+35 is o(n²)
+
+- Reflexive 
+    - if f(n) is given then f(n) is o(f(n))
+    - ex- f(n)=n²=o(n²)=upper bound
+
+- Transitive
+    - if f(n) is o(g(n)) and g(n) is o(h(n))
+    f(n)=o(h(n))
+    -ex- f(n) g(n)=n² h(n)=n³ 
+    n is o(n²) and n² is o(n³)
+    then n is o(n³)
+
+- Symmetric
+    - if f(n) is Theta(g(n)) and g(n) is Theta(f(n))
+    f(n)=n²   g(n)=n²
+    f(n)=Theat(n²)
+    g(n)=Theta(n²)
+
+- Transpose Symmetric
+    - if f(n) is o(g(n)) and g(n) is Omega(f(n))
+    - ex-f(n)=n  g(n)=n²
+    Then n is o(n²) and n is upper bound n²
+    n² is Omega (n) n² is lower bound notation
+
+- Ex-1
+    - if f(n)=o(g(n))
+    f(n)=Omega(g(n))
+    g(n)<=f(n)<=g(n)
+    f(n)=Theta(g(n))
+
+- Ex-2
+    - if f(n)=o(g(n))
+    and d(n)=o(e(n))
+    f(n)+d(n)=o(max(g(n)),e(n))
+    f(n)=n²=o(n)
+    d(n)=n=o(n²)
+    f(n)+d(n)=n²+n=o(n²)
+
+- Ex-3
+    - if f(n)=o(g(n))
+    d(n)=o(e(n))
+    f(n)*d(n)=o(g(n)*e(n))
+
+

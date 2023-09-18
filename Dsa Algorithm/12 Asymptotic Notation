@@ -1,0 +1,26 @@
+- f(n)=2n²+3n+4
+2n²+3n+4 <= 2n²+3n²+4n²
+2n²+3n+4 <=9n²
+o(g(n))
+2n²+3n+4 >= 1*n²  omegeof(n²)
+1*n² <= 2n²+3n+4 <= 9n² theta of(n²)
+
+- Ex- 2
+    - f(n)=n²logn+n
+    1*n²logn <= n²logn+n <= 10n²logn
+    o(n²logn)omegeof(n²logn) thetaof (n²logn)
+
+- Ex- 3
+    - f(n)=n!
+    n*(n-1)*(n-2)*--------3*2*1
+    1*1*1*1----*1 <= 1*2*3*-----*n <= n*n*n*n*----*n
+    1<=n!<=nn 
+    o(nn)-upper bound
+    Omegeof(1)-lower bound
+
+-Ex- 4
+    - F(n)=logn!
+     log(1*1*1*1----*1) <= log(1*2*3*-----*n) <= log(n*n*n*n*----*n)
+    1<=logn!<=lognn 
+    o(logn)-upper bound
+    Omegeof(1)-lower bound

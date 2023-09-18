@@ -1,0 +1,23 @@
+- n     n²      n³
+2       2²=4    2³=8
+3       3*3=9   3*3*3=27
+4       4*4=16  4*4*4=64
+
+- 2nd method 
+  - Apply log on both side
+  logn²     logn³
+  2logn   <  3logn
+
+  - Formula log
+    - logab=loga+logb
+    - loga/b=loga-logb
+    - loga power b=bloga
+    - alog power b base c=b log power a base c
+    - a power b= n then b=log power n base a
+
+  - Ex- 1
+    - f(n)=n²logn > g(n)=n(logn)10
+    Apply log
+    log[n²logn]         log[n(logn)10]
+    logn²+loglogn       logn+log(logn)10
+    2logn+loglogn      > logn+10loglogn
